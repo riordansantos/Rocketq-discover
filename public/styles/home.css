@@ -7,6 +7,21 @@
     'header header'
     'left right'
 }
+/*
+@media(max-width: 576px) {
+    .content{
+        margin-right: 2rem ;
+        grid-template-columns: 5% 95%;
+        grid-template-areas:
+         'header header'
+         'left right'; 
+    }
+    
+    
+}
+*/
+
+
 header{
     grid-area: header;
 }
