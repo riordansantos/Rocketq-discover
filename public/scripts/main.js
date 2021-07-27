@@ -9,7 +9,7 @@ const modalButton =document.querySelector('.modal button')
 
 //Pegando os botões que existem com a class "check"
 const checkButtons = document.querySelectorAll(".actions a.check")
-// adiciona uma escuta em todos os buttons de check e depois adicona o evento de open
+// adiciona uma escuta em todos os buttons de check e depois adiciona o evento de open
 checkButtons.forEach(button =>{
     button.addEventListener("click", handleClick)
 })

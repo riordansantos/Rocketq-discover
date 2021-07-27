@@ -170,3 +170,26 @@
     line-height: 1.9rem;
     color: grey;
 }
+
+@media(max-width: 576px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        overflow:inherit;
+    }
+
+    #room header{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    #room header .buttons{
+        padding-top: 2rem;
+        margin-bottom: -2rem;
+    } 
+
+}
