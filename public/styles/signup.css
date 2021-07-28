@@ -1,0 +1,70 @@
+.content{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 11.4rem 1fr;
+
+    grid-template-areas: 
+    'header'
+    'body'
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: body;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -12rem;
+}
+
+main .container{
+    width: min(36.3rem, 100%);
+}
+
+main h2{
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+    font-size: clamp(20px, 5vw, 2.8rem);
+    margin-bottom: 2.4rem;
+    text-align: center;
+}
+
+input{
+    border: .2rem solid var(--grey-blue);
+    padding: 0 1.6rem;
+    outline: none;
+    
+}
+
+input, button, .button{
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+#bg{
+    grid-area: body;
+}
+.ball{
+    width: 21.2rem;
+    height: 21.2rem;
+    background: var(--blue);
+    position: fixed;
+    clip-path: circle();
+    opacity: .1;
+}
+
+.ball.top{
+    top: -49rem;
+    right: -35rem;
+    width: 63.3rem;
+    height: 63.3rem;
+
+}
+
+.ball.bottom{
+    bottom: -15rem;
+    right: 5.6rem;
+}

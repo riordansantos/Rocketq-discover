@@ -1,0 +1,48 @@
+.content{
+    max-width: min(112rem, 90%);
+}
+#myrooms header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#myrooms header .buttons{
+    display: flex;
+    
+}
+
+#myrooms header .buttons .button{
+    padding: 1.3rem 3.2rem;
+}
+
+#myrooms header .buttons .button img{
+    width: 2rem;
+    height: 2rem;
+}
+
+#rooms h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    color: var(--black);
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+    line-height: 4.2rem;
+}
+
+.room-wrapper{
+    background: var(--light-blue);
+    margin-bottom: .8rem;
+    border-radius: 0 .8rem .8rem .8rem;
+    padding: 2.4rem;
+}
+
+.room-wrapper .room-content{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
