@@ -16,6 +16,12 @@ const initDB = {
             room INT
         )`);
 
+        await db.exec(`CREATE TABLE myrooms(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            read INT
+            idcreator INT
+        )`);
+
         await db.close()
     }
 } 
